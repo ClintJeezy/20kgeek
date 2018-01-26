@@ -60,7 +60,7 @@ $mail->Body="Message body";
 if(!$mail->Send()) {
  echo "Message not sent";
 } else {
-  echo 'Messe sent';
+  echo 'Message sent';
 }
 
 ?>
